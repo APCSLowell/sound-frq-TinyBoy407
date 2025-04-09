@@ -49,3 +49,4 @@ public class Sound
     }
     samples = newsam;
   }
+}
