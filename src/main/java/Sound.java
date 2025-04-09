@@ -43,7 +43,7 @@ public class Sound
     while(samples[count] == 0){
       count++;
     }
-    int[] newsam = new int[samples.length-count];
+    int[] newsam = new int[samples.length - count];
     for(int i = 0; i < newsam.length; i++){
       newsam[i] = samples[i + count];
     }
