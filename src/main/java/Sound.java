@@ -23,7 +23,7 @@ public class Sound
         count++;
       }
       else if(samples[i] < -limit){
-        sample[i] = -limit;
+        samples[i] = -limit;
         count++;
       }
     }
